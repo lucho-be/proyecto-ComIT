@@ -131,7 +131,7 @@ footer {
   height: 50px;
   width: 100vw;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   font-size: 14px;
   font-weight: 600;
@@ -150,6 +150,16 @@ footer {
   padding: 0 10px;
 }
 
+footer div {
+  margin-left: 50px;
+}
+
 footer p {
   margin: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  background-color: #393939;
 }

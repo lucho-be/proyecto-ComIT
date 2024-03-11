@@ -173,9 +173,14 @@ header div {
   color: #f9f9f9;
   font-size: 18px;
   font-weight: 400;
+  font-style: italic;
   margin-left: 80px;
   text-align: justify;
   line-height: 35px;
+}
+
+.emoji {
+  font-style: normal;
 }
 
 .logoslenguajes {
@@ -188,48 +193,13 @@ header div {
 
 .logoslenguajes img {
   margin: 0px 40px 30px;
-  width: 17%;
-  padding: 0px 50px 20px 0px;
+  width: 18%;
+  padding: 0px 30px 20px 0px;
   transition: width 0.3s;
 }
 
 .logoslenguajes img:hover {
   width: 20%;
-}
-
-/*-------------------------------------------------  PORTFOLIO ------------------------------------------------*/
-
-#portfolio {
-  height: 600px;
-}
-
-#portfolio h2 {
-  width: 100%;
-  text-align: center;
-  padding: 50px 0px 0px 0px;
-  font-size: 40px;
-  color: #eec81a;
-  margin: 0 auto;
-}
-
-#portfolio h4 {
-  width: 100%;
-  text-align: center;
-  padding: 10px 0px 50px 0px;
-  margin: 0 auto;
-  font-size: 18px;
-}
-
-.contenedorcarrusel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.carrusel {
-  width: 90%;
-  height: 450px;
-  border: #393939 dashed 5px;
 }
 
 /*-------------------------------------------------  FOOTER ------------------------------------------------*/
@@ -240,7 +210,7 @@ footer {
   box-shadow: 2px -3px 23px -10px rgba(0, 0, 0, 0.3);
   height: 50px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   font-size: 14px;
   font-weight: 600;
@@ -257,6 +227,16 @@ footer {
   padding: 0 10px;
 }
 
+footer div {
+  margin-left: 50px;
+}
+
 footer p {
   margin: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  background-color: #393939;
 }
