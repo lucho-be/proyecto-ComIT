@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+/*-------------------------------------------------  AJUSTES PRINCIPALES/DETALLES ------------------------------------------------*/
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.fondo-oscuro {
+  background-color: #393939;
+}
+
+.flechas {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 37%;
+  margin-top: 30px;
+  transform: rotate(90deg);
+  letter-spacing: 4px;
+  z-index: 0;
+  color: #393939;
+}
+
+.lineaseparadora-clara {
+  width: 300px;
+  height: 2px;
+  background-color: rgb(252, 252, 252);
+  border: 0;
+}
+
+.lineaseparadora-oscura {
+  width: 300px;
+  height: 2px;
+  background-color: #393939;
+  border: 0;
+}
+
+span {
+  color: #eec81a;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  border: solid 3.5px #393939;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------------------------  HEADER ------------------------------------------------*/
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 65px;
+  padding: 0;
+  box-shadow: 0 5px 10px rgba(61, 61, 61, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+#logoprincipal {
+  width: 60px;
+  left: 15px;
+  position: absolute;
+}
+
+.botonheader {
+  margin: 0px 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.botonheader:hover {
+  color: #eec81a;
+}
+
+.tituloamarillo {
+  color: #eec81a;
+  font-size: 1.5em;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------------  FORMULARIO ------------------------------------------------*/
+
+.contenedorformulario {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 50px -20px rgba(0,0,0,0.75);
+}
+
+
+.formulariocontacto input {
+    background-color: transparent;
+    border: #eec81a solid 3px;
+    margin: 10px auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    color: #393939;
+    text-align: center;
+}
+
+.formulariocontacto textarea {
+  resize: none;
+  background-color: transparent;
+    border: #eec81a solid 3px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.formulariocontacto input[type = "submit"] {
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*-------------------------------------------------  FOOTER ------------------------------------------------*/
+
+footer {
+  width: 100vw;
+  background-color: #eec81a;
+  box-shadow: 2px -3px 23px -10px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  position: fixed;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0px;
+}
+
+#logosredes {
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px 0px 20px;
+}
+
+.logoredsocial {
+  padding: 0 10px;
+}

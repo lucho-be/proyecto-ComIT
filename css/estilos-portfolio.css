@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*-------------------------------------------------  AJUSTES PRINCIPALES/DETALLES ------------------------------------------------*/
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+.fondo-claro {
+  background-color: #f9f9f9;
+}
+
+.fondo-oscuro {
+  background-color: #393939;
+}
+
+.lineaseparadora-clara {
+  width: 300px;
+  margin-left: 80px;
+  height: 2px;
+  background-color: rgb(252, 252, 252);
+  border: 0;
+}
+
+.lineaseparadora-oscura {
+  width: 300px;
+  margin-left: 80px;
+  height: 2px;
+  background-color: #393939;
+  border: 0;
+}
+
+.tituloamarillo {
+  color: #eec81a;
+  padding-top: 50px;
+  padding-left: 80px;
+  font-size: 35px;
+  margin: 0 auto;
+}
+
+span {
+  color: #eec81a;
+  font-weight: bold;
+}
+
+button {
+  background-color: white;
+  border: solid 3.5px #393939;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  width: 150px;
+  height: 40px;
+}
+
+body {
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  height: 100vh;
+}
+
+/*-------------------------------------------------  HEADER ------------------------------------------------*/
+
+header {
+  background-color: rgb(255, 255, 255);
+  height: 65px;
+  padding: 0;
+  box-shadow: 0 5px 10px rgba(61, 61, 61, 0.2);
+  position: sticky;
+  top: 0;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+}
+
+#logoprincipal {
+  width: 60px;
+  left: 15px;
+  position: absolute;
+}
+
+.botonheader {
+  margin: 0px 30px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.botonheader:hover {
+  color: #eec81a;
+}
+
+/*-------------------------------------------------  PORTFOLIO ------------------------------------------------*/
+
+#portfolio h2,h5 {
+  text-align: center;
+  margin-top: 25px;
+  padding: 0;
+}
+
+/* #portfolio div {
+  width: 70%;
+  height: 400px;
+  background-color: #393939;
+  margin: 3% 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+#portfolio div .card {
+  
+}
+
+
+
+/*-------------------------------------------------  FOOTER ------------------------------------------------*/
+
+footer {
+  background-color: #eec81a;
+  margin-top: 30px;
+  box-shadow: 2px -3px 23px -10px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  position: fixed;
+  bottom: 0;
+}
+
+#logosredes {
+  height: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 50px 0px 20px;
+}
+
+.logoredsocial {
+  padding: 0 10px;
+}
+
+footer p {
+  margin: 0px;
+}
