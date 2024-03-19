@@ -15,11 +15,9 @@
 }
 
 .lineaseparadora-clara {
-  width: 300px;
-  margin-left: 80px;
-  height: 2px;
-  background-color: rgb(252, 252, 252);
-  border: 0;
+  width: 50%;
+  margin: 2% 25%;
+  opacity: 40%;
 }
 
 .lineaseparadora-oscura {
@@ -43,16 +41,7 @@ span {
   font-weight: bold;
 }
 
-button {
-  background-color: white;
-  border: solid 3.5px #393939;
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  width: 150px;
-  height: 40px;
-}
+
 
 body {
   font-style: normal;
@@ -142,64 +131,75 @@ header div {
   height: 80%;
 }
 
-#inicio button {
-  margin-left: 30%;
-  margin-top: 15%;
-}
-
 /*-------------------------------------------------  SOBRE MI ------------------------------------------------*/
 
 #sobremi {
-  height: 500px;
+  width: 50%;
+  margin: 5% 25%;
+  border: solid 5px #eec81a;
+  box-shadow: -1px -1px 100px -23px rgba(0, 0, 0, 0.40);
+  padding: 40px;
+  box-sizing: border-box;
+  color: #393939;
 }
 
 #sobremi h2 {
-  color: #eec81a;
-  padding-top: 50px;
-  padding-left: 80px;
-  font-size: 35px;
-  margin: 0 auto;
+  text-align: center;
 }
 
-.contenedor2 {
+.sobremi-lenguajes {
   display: flex;
-}
-
-.contenedor2 > div {
-  width: 50%;
-}
-
-.contenedor2 div p {
-  color: #f9f9f9;
-  font-size: 18px;
-  font-weight: 400;
-  font-style: italic;
-  margin-left: 80px;
-  text-align: justify;
-  line-height: 35px;
-}
-
-.emoji {
-  font-style: normal;
-}
-
-.logoslenguajes {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
+}
+
+.sobremi-lenguajes img {
+  width: 30%;
+  margin: 40% 3%;
+  overflow: hidden;
+}
+
+#sobremi p {
+  font-size: 1.1em;
+  text-align: justify;
+  line-height: 2em;
+  margin-top: 5%;
+}
+
+
+.slider {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 8);
+}
+
+.slider .slide {
+  width: 200px;
+}
+
+.slider .slide img {
   width: 50%;
 }
 
-.logoslenguajes img {
-  margin: 0px 40px 30px;
-  width: 18%;
-  padding: 0px 30px 20px 0px;
-  transition: width 0.3s;
-}
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-.logoslenguajes img:hover {
-  width: 20%;
+  100% {
+    -webkit-transform: translateX(calc(-150px * 4));
+    transform: translateX(calc(-150px * 4));
+  }
 }
 
 /*-------------------------------------------------  FOOTER ------------------------------------------------*/
